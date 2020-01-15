@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+		body {
+    		background-color: whitesmoke;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			text-align: center;
+  		}
+
+		.white {
+			color: #ffffff;
+		}
+		.center {
+			text-align: center;
+		}
+		.right {
+			text-align: right;
+		}
+		.Title {
+
+			position: sticky;
+			top: 0;
+			background: #ad1012;
+			text-align: center;
+			color: #19f253;
+		}
+
+			.sticky{
+				position: sticky;
+				top: 0;
+
+			}
+
+
+		.large {
+
+			font-size: 30px;
+		}
+		.small {
+
+			font-size: 20px;
+		}
+
+		.thin-red-border {
+   			 border-color: #ad1012;
+   			 border-width: 6px;
+   			 border-style: solid;
+			 border-radius: 5px;
+  		}
