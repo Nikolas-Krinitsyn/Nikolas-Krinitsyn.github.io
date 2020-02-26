@@ -10,6 +10,65 @@
 body,h1 {font-family: "Raleway", Arial, sans-serif}
 h1 {letter-spacing: 6px}
 .w3-row-padding img {margin-bottom: 12px}
+.center {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+image {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 1px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
 </style>
 <body>
 
@@ -27,39 +86,30 @@ h1 {letter-spacing: 6px}
       <a href="Experience.html" class="w3-bar-item w3-button">Experience</a>
       <a href="Skills.html" class="w3-bar-item w3-button">Skills</a>
       <a href="Awards.html" class="w3-bar-item w3-button">Awards</a>
-	  <a href="Speach.html" class="w3-bar-item w3-button">Elevator Speach</a>
+    <a href="Speach.html" class="w3-bar-item w3-button">Elevator Speach</a>
     </div>
   </div>
 </header>
 
 <!-- Photo Grid -->
-<div class="w3-row-padding w3-grayscale" style="margin-bottom:128px">
-  <div class="w3-half">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/falls2.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-  </div>
 
-  <div class="w3-half">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-    <img src="/w3images/ocean.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/mountainskies.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-  </div>
+<div class="w3-center w3-xlarge w3-panel">
+    <img src="elevator_icon.png" style="width:15%">
+    <div style="margin-top: 10%"></div>
+    <h1 class="w3-opacity">Elevator Speach</h1>
 </div>
+
+<div class="w3-xlarge w3-panel w3-center w3-opacity">
+<h2 style="margin-left: 10%; margin-right: 10%;">
+My name is Nikolas Krinitsyn I go to delta high school I have a 3.8 weighted GPA. I work at a State Farm office in Pasco. I am responsible for scanning files and organizing customer records. At School I have several officer positions in clubs such as cyber patriots and science Olympiad. I also design the website for Key club. I also have certification in Microsoft Word and PowerPoint and I have experience using programs like excel, publisher, AutoCAD, and Solid works for class projects. I work great in teams and I am friendly. Also, I am familiar with professional environments. You can reach me by my phone at (509) 412- 4773 </h2></div>
   
+
 <!-- End Page Content -->
 </div>
   <h1></h1>
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
-  ©2020 by Nikolas Krinitsyn
+©2020 by Nikolas Krinitsyn
 </footer>
 
 </body>
