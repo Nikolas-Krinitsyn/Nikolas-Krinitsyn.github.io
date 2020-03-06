@@ -1,2 +1,2 @@
 # nikolas-krinitsyn
-A class Project
+A class Project/resume
